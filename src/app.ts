@@ -2,7 +2,6 @@ import express, { type Application, type Request, type Response, } from "express
 import cookeiParser from "cookie-parser"
 import cors from "cors"
 import logger from "./middleware/logger.js"
-import { userRouter } from "./modules/user/user.route.js"
 import { authRouter } from "./modules/auth/auth.route.js"
 import { globalErrorHandler } from "./middleware/globalErrorHandler.js"
 import { issuesRouter } from "./modules/issues/issues.route.js"
@@ -22,7 +21,6 @@ app.get('/', (req:Request, res:Response) => {
 res.status(200).json({message:"Express server",author:"Next Level"})
 })
 
-app.use("/api/users",userRouter);
 app.use("/api/auth",authRouter);
 app.use("/api/issues",issuesRouter)
 
