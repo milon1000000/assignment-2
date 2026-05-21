@@ -494,3 +494,75 @@ Method -> POST URL -> /api/auth/login Time -> 1779383744072
 Method -> PATCH URL -> /api/issues/5 Time -> 1779383766174
 
 Method -> PATCH URL -> /api/issues/9 Time -> 1779383771954
+
+Method -> DELETE URL -> /api/issues/4 Time -> 1779384768581
+
+Method -> DELETE URL -> /api/issues/4 Time -> 1779384859458
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779384864289
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779384876532
+
+Method -> POST URL -> /api/auth/login Time -> 1779385012262
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779385046099
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779385164530
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779385204958
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779385238392
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779385240209
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385255144
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385256778
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385267413
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385273823
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385275524
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385295943
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385325647
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385358845
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385388735
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779385415694
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779385423391
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779385432762
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779385436803
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779385472932
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385477372
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385689399
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385699699
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385727044
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385773751
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385844016
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779385977663
+
+Method -> POST URL -> /api/auth/login Time -> 1779385988486
+
+Method -> DELETE URL -> /api/issues/5 Time -> 1779386000221
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779386013879
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779386027898
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779386035785

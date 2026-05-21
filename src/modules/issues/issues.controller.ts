@@ -2,6 +2,7 @@ import jwt, { type JwtPayload } from "jsonwebtoken";
 import type { Request, Response } from "express";
 import {
   createIssuesIntoDB,
+  deleteIssuesIntoDB,
   getAllIssuesIntoDB,
   getSingleIssuesIntoDB,
   updateIssuesIntoDB,
@@ -96,6 +97,25 @@ export const updateIssuesController = async (req: Request, res: Response) => {
       success: true,
       message: "Issue updated successfully",
       data: result,
+    });
+  } catch (error: any) {
+    return sendResponse(res, {
+      statusCode: 500,
+      success: false,
+      message: error.message,
+      error: error,
+    });
+  }
+};
+
+export const deleteIssuesController = async (req: Request, res: Response) => {
+  const { id } = req.params;
+  try {
+    const result = await deleteIssuesIntoDB(id as string, req.user);
+    return sendResponse(res, {
+      statusCode: 200,
+      success: true,
+      message: "Issue deleted successfully",
     });
   } catch (error: any) {
     return sendResponse(res, {

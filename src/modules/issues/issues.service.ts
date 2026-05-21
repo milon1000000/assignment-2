@@ -149,3 +149,26 @@ export const updateIssuesIntoDB = async (
 
   return updated.rows[0];
 };
+
+export const deleteIssuesIntoDB = async (id: string, user: any) => {
+  const issueResult = await pool.query(`SELECT * FROM issues WHERE id=$1`, [
+    id,
+  ]);
+
+  const issue = issueResult.rows[0];
+
+  if (!issue) {
+    throw new Error("Issue not found");
+  }
+
+  if (user.role !== "maintainer") {
+    throw new Error("Only maintainer can delete issues");
+  }
+
+  const deleted = await pool.query(
+    `DELETE FROM issues WHERE id=$1 RETURNING *`,
+    [id],
+  );
+
+  return deleted.rows[0];
+};
