@@ -1,13 +1,24 @@
-import { auth } from './../../middleware/auth.js';
+import { auth } from "./../../middleware/auth.js";
 import { Router } from "express";
-import { createIssuesController, deleteIssuesController, getAllIssuesController, getSingleIssuesController, updateIssuesController } from "./issues.controller.js";
-import { USER_ROLE } from '../../types/index.js';
-const router=Router();
+import {
+  createIssuesController,
+  deleteIssuesController,
+  getAllIssuesController,
+  getSingleIssuesController,
+  updateIssuesController,
+} from "./issues.controller.js";
+import { USER_ROLE } from "../../types/index.js";
 
-router.post("/",auth(),createIssuesController);
-router.get("/",auth(),getAllIssuesController);
-router.get("/:id",auth(),getSingleIssuesController)
-router.patch("/:id",auth(USER_ROLE.maintainer,USER_ROLE.contributor),updateIssuesController);
-router.delete("/:id",auth(),deleteIssuesController)
+const router = Router();
 
-export const issuesRouter=router;
+router.post("/",auth(USER_ROLE.maintainer, USER_ROLE.contributor),createIssuesController);
+
+router.get("/", getAllIssuesController);
+
+router.get("/:id", getSingleIssuesController);
+
+router.patch("/:id",auth(USER_ROLE.maintainer, USER_ROLE.contributor), updateIssuesController);
+
+router.delete("/:id",auth(USER_ROLE.maintainer), deleteIssuesController);
+
+export const issuesRouter = router;
