@@ -154,7 +154,8 @@ export const deleteIssuesIntoDB = async (id: string, user: any) => {
   const issueResult = await pool.query(`SELECT * FROM issues WHERE id=$1`, [
     id,
   ]);
-
+  
+  
   const issue = issueResult.rows[0];
 
   if (!issue) {

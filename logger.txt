@@ -566,3 +566,99 @@ Method -> GET URL -> /api/issues?sort=newest Time -> 1779386013879
 Method -> DELETE URL -> /api/issues/9 Time -> 1779386027898
 
 Method -> GET URL -> /api/issues?sort=newest Time -> 1779386035785
+
+Method -> GET URL -> / Time -> 1779388445279
+
+Method -> GET URL -> /favicon.ico Time -> 1779388446842
+
+Method -> GET URL -> /products Time -> 1779388544646
+
+Method -> GET URL -> /api/issues Time -> 1779388561410
+
+Method -> GET URL -> /api/issues Time -> 1779388694773
+
+Method -> GET URL -> /api/issues Time -> 1779388700050
+
+Method -> GET URL -> /api/issues Time -> 1779388703923
+
+Method -> GET URL -> /api/issues Time -> 1779388708220
+
+Method -> GET URL -> /api/issues Time -> 1779388709128
+
+Method -> GET URL -> /api/issues Time -> 1779388711435
+
+Method -> GET URL -> /api/issues Time -> 1779388807599
+
+Method -> GET URL -> /api/issues Time -> 1779388811680
+
+Method -> GET URL -> /api/issues Time -> 1779388812490
+
+Method -> GET URL -> /api/issues Time -> 1779388812667
+
+Method -> GET URL -> /api/issues Time -> 1779388812863
+
+Method -> GET URL -> /api/issues Time -> 1779388813262
+
+Method -> GET URL -> /api/issues Time -> 1779388813468
+
+Method -> GET URL -> /api/issues Time -> 1779388814107
+
+Method -> GET URL -> /api/issues Time -> 1779388815634
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779388821433
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779388919373
+
+Method -> POST URL -> /api/auth/login Time -> 1779388924153
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779388931869
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779388975090
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779388983516
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779388988607
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779388995924
+
+Method -> GET URL -> /api/issues Time -> 1779389000690
+
+Method -> GET URL -> /api/issues/4 Time -> 1779389007574
+
+Method -> GET URL -> /api/issues/2?auth Time -> 1779389070154
+
+Method -> GET URL -> /api/issues/2?auth Time -> 1779389076729
+
+Method -> GET URL -> /api/issues/2 Time -> 1779389092297
+
+Method -> GET URL -> /api/issues/2 Time -> 1779389095845
+
+Method -> GET URL -> /api/issues/2?auth Time -> 1779389102268
+
+Method -> GET URL -> /api/issues/4 Time -> 1779389112219
+
+Method -> GET URL -> /api/issues/4 Time -> 1779389114805
+
+Method -> GET URL -> /api/issues/4 Time -> 1779389115439
+
+Method -> GET URL -> /api/issues/4 Time -> 1779389115651
+
+Method -> GET URL -> /api/issues/4 Time -> 1779389115840
+
+Method -> GET URL -> /api/issues/4 Time -> 1779389116030
+
+Method -> POST URL -> /api/issues Time -> 1779389377315
+
+Method -> POST URL -> /api/issues Time -> 1779389430934
+
+Method -> POST URL -> /api/issues Time -> 1779389433330
+
+Method -> POST URL -> /api/auth/login Time -> 1779389509366
+
+Method -> POST URL -> /api/issues Time -> 1779389525454
+
+Method -> POST URL -> /api/issues Time -> 1779389546737
+
+Method -> POST URL -> /api/issues Time -> 1779389551808
+
+Method -> DELETE URL -> /api/issues/9 Time -> 1779389575688
