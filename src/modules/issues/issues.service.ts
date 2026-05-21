@@ -103,3 +103,49 @@ export const getSingleIssuesIntoDB = async (id: string) => {
     },
   };
 };
+
+export const updateIssuesIntoDB = async (
+  payLoad: IIssues,
+  id: string,
+  user: any,
+) => {
+  const { title, description, type } = payLoad;
+
+  const issueResult = await pool.query(`SELECT * FROM issues WHERE id=$1`, [
+    id,
+  ]);
+
+  const issue = issueResult.rows[0];
+
+  if (!issue) {
+    throw new Error("Issue not found");
+  }
+
+  if (user.role === "maintainer") {
+    // sob kisu update korte parbe maintainer
+  } else if (user.role === "contributor") {
+    if (issue.reporter_id !== user.id) {
+      throw new Error("You can only update your own issue");
+    }
+
+    if (issue.status !== "open") {
+      throw new Error("You can only update open issues");
+    }
+  }
+
+  const updated = await pool.query(
+    `
+    UPDATE issues
+    SET
+      title = COALESCE($1, title),
+      description = COALESCE($2, description),
+      type = COALESCE($3, type),
+      updated_at = NOW()
+    WHERE id = $4
+    RETURNING *
+    `,
+    [title, description, type, id],
+  );
+
+  return updated.rows[0];
+};

@@ -4,6 +4,7 @@ import {
   createIssuesIntoDB,
   getAllIssuesIntoDB,
   getSingleIssuesIntoDB,
+  updateIssuesIntoDB,
 } from "./issues.service.js";
 import { sendResponse } from "../../utility/sendResponse.js";
 import config from "../../config/index.js";
@@ -73,6 +74,28 @@ export const getSingleIssuesController = async (
       success: true,
       message: "Get single issue successfully",
       data: result.data,
+    });
+  } catch (error: any) {
+    return sendResponse(res, {
+      statusCode: 500,
+      success: false,
+      message: error.message,
+      error: error,
+    });
+  }
+};
+
+export const updateIssuesController = async (req: Request, res: Response) => {
+  const { id } = req.params;
+
+  try {
+    const result = await updateIssuesIntoDB(req.body, id as string, req.user);
+
+    return sendResponse(res, {
+      statusCode: 200,
+      success: true,
+      message: "Issue updated successfully",
+      data: result,
     });
   } catch (error: any) {
     return sendResponse(res, {

@@ -1,10 +1,9 @@
 export const USER_ROLE={
-admin:"admin",
-agent:"agent",
-user:"user"
+maintainer :"maintainer",
+contributor :"contributor",
 } as const;
 
-export type  ROLES="admin" | 'agent' | 'user'
+export type  ROLES="contributor" | 'maintainer';
 
 
 export type QueryParams = {

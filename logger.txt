@@ -410,3 +410,87 @@ Method -> GET URL -> /api/issues/2 Time -> 1779356857728
 Method -> GET URL -> /api/issues/2 Time -> 1779356859253
 
 Method -> GET URL -> /api/issues?sort=newest Time -> 1779357136290
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779380103158
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779380520267
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779380534290
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779380871604
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779380950988
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779380978924
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779381001091
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779381182210
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779381638644
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779381669247
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779381744600
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779381822114
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779381960071
+
+Method -> POST URL -> /api/auth/signup Time -> 1779382005522
+
+Method -> POST URL -> /api/auth/login Time -> 1779382019902
+
+Method -> POST URL -> /api/auth/login Time -> 1779382200799
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779382235109
+
+Method -> PATCH URL -> /api/issues/2 Time -> 1779382262369
+
+Method -> POST URL -> /api/issues Time -> 1779382329097
+
+Method -> POST URL -> /api/auth/signup Time -> 1779383042112
+
+Method -> POST URL -> /api/auth/signup Time -> 1779383052416
+
+Method -> POST URL -> /api/auth/login Time -> 1779383072888
+
+Method -> POST URL -> /api/issues Time -> 1779383120298
+
+Method -> POST URL -> /api/issues Time -> 1779383126557
+
+Method -> POST URL -> /api/issues Time -> 1779383135933
+
+Method -> POST URL -> /api/issues Time -> 1779383142736
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779383154835
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779383175951
+
+Method -> GET URL -> /api/issues?sort=newest Time -> 1779383183639
+
+Method -> PATCH URL -> /api/issues/5 Time -> 1779383196538
+
+Method -> PATCH URL -> /api/issues/5 Time -> 1779383202913
+
+Method -> PATCH URL -> /api/issues/5 Time -> 1779383252888
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779383258783
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779383260902
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779383263279
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779383298448
+
+Method -> PATCH URL -> /api/issues/5 Time -> 1779383302933
+
+Method -> POST URL -> /api/auth/login Time -> 1779383713392
+
+Method -> POST URL -> /api/auth/login Time -> 1779383721726
+
+Method -> POST URL -> /api/auth/login Time -> 1779383744072
+
+Method -> PATCH URL -> /api/issues/5 Time -> 1779383766174
+
+Method -> PATCH URL -> /api/issues/9 Time -> 1779383771954
