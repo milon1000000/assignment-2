@@ -22,7 +22,7 @@ res.status(200).json({message:"Express server",author:"Next Level"})
 })
 
 app.use("/api/auth",authRouter);
-app.use("/api/issues",issuesRouter)
+app.use("/api/issues",issuesRouter);
 
 
 
